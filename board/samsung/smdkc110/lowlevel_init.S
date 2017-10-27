@@ -115,7 +115,7 @@ lowlevel_init:
 	beq     1f			/* r0 == r1 then skip sdram init   */
 
 	/* init PMIC chip */
-	bl PMIC_InitIp
+	// bl PMIC_InitIp		// 开发板没有此模块，在此注销
 
 	/* init system clock */
 	bl system_clock_init
