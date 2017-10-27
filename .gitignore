@@ -63,3 +63,6 @@ cscope.*
 # sd_fusing
 sd_fusing/mkbl1
 sd_fusing/sd_fdisk
+
+# SI_Proj
+SI_Proj/
