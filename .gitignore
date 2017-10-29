@@ -12,6 +12,7 @@
 *.o
 *~
 *.patch
+*.dis
 
 #
 # Top-level generic files
