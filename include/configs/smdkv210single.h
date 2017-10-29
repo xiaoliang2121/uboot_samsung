@@ -508,7 +508,7 @@
  * SMDKC110 board specific data
  */
 
-#define CONFIG_IDENT_STRING	" for SMDKV210"
+#define CONFIG_IDENT_STRING	" for XIAO210"
 
 /* total memory required by uboot */
 #define CFG_UBOOT_SIZE		(2*1024*1024)
