@@ -814,7 +814,7 @@ static int mmc_read_ext_csd(struct mmc *host)
 	}
 
 	ext_csd_struct = ext_csd[EXT_CSD_REV];
-	if (virt_to_phy_smdkc110 > 8) {
+	if (ext_csd_struct  > 8) {
 		printf("unrecognised EXT_CSD structure "
 			"version %d\n", ext_csd_struct);
 		err = -1;
